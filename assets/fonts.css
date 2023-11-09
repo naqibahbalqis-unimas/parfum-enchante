@@ -19,7 +19,7 @@
 
 @font-face {
     font-family: 'Commune';
-    src: url('assets/fonts/Commune/commune.woff') format('woff');
+    src: url('../assets/fonts/Commune/commune.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
