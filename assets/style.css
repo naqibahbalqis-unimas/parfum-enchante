@@ -363,18 +363,6 @@ a{
         padding-right: 10px;
     }
 
-    .marquee-section{
 
-        display: inline-block;
-        white-space: nowrap;
-        overflow: hidden;
-        padding: 60px 0;
-    }
-    .marquee{
-        overflow: hidden;
-        display: inline-block;
-        white-space: nowrap;
-        animation: scroll 9s infinite linear;
-    }
 
 }
