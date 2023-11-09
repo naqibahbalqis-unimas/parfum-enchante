@@ -322,16 +322,27 @@ a{
         width: 100vw;
         overflow-x: hidden;
     }
+
+    .perfume-info-name{
+        font-family: 'Commune',serif;
+        color: white;
+        padding-top: 20px;
+
+    }
+
+    .perfume-info{
+        padding-left: 10px;
+
+    }
     .perfume-page-image{
-        margin: auto;
+        margin: 0 auto;
         border-radius: 20px; /* Rounded corners for a softer look */
         transition: transform 0.3s ease; /* Add a hover effect */
-        display: flex; /* Ensure it's treated as a block element */
-        max-width: 100%; /* Ensure it doesn't exceed the container's width */
-        width: 400px; /* Set a fixed width */
-        height: 400px; /* Set a fixed height for a 1:1 aspect ratio */
+        width: 380px; /* Set a fixed width */
+        height: 380px; /* Set a fixed height for a 1:1 aspect ratio */
         object-fit: cover; /* Maintain aspect ratio and crop if necessary */
-        padding-bottom: 20px;
+        padding-bottom: 0;
+        float: none;
     }
     .logo-brand {
         font-family: "Commune", serif;
@@ -339,7 +350,14 @@ a{
     }
     .perfume-page-info{
         margin: auto 0;
-        padding: 0 20px;
+        padding: 0 30px;
+    }
+
+    .element-text{
+        font-family: "Poppins",sans-serif;
+        padding-left: 10px;
+        font-size: 1rem;
+
     }
 
     .notes{
