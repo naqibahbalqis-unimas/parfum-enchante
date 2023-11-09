@@ -310,6 +310,11 @@ a{
 }
 
 @media only screen and (max-width: 700px) {
+
+    body{
+        width: 100vw;
+        overflow-x: hidden;
+    }
     .perfume-page-image{
         margin: auto;
         border-radius: 20px; /* Rounded corners for a softer look */
