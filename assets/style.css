@@ -364,7 +364,8 @@ a{
     }
 
     .marquee-section{
-        display: inline-block;
+
+        display: none;
         white-space: nowrap;
         overflow: hidden;
         padding: 60px 0;
