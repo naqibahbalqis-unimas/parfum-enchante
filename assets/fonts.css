@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'SF Pro Text Thin Italic';
-    src: url('assets/fonts/SF-Pro/SF-Pro-Display-ThinItalic.otf') format('opentype');
+    src: url('../assets/fonts/SF-Pro/SF-Pro-Display-ThinItalic.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'SF Pro Text Ultralight';
-    src: url('assets/fonts/SF-Pro/SF-Pro-Display-Ultralight.otf') format('opentype');
+    src: url('../assets/fonts/SF-Pro/SF-Pro-Display-Ultralight.otf') format('opentype');
     font-weight: 200; /* or specify the actual font weight if applicable */
     font-style: normal; /* or specify 'italic' for italic fonts if applicable */
 }
 
 @font-face {
     font-family: 'SF Pro Text Thin';
-    src: url('assets/fonts/SF-Pro/SF-Pro-Display-Thin.otf') format('opentype');
+    src: url('../assets/fonts/SF-Pro/SF-Pro-Display-Thin.otf') format('opentype');
     font-weight: 200; /* or specify the actual font weight if applicable */
     font-style: normal; /* or specify 'italic' for italic fonts if applicable */
 }
@@ -26,7 +26,7 @@
 
 @font-face {
     font-family: 'SF Pro Display Regular';
-    src: url('assets/fonts/SF-Pro/SF-Pro-Display-Regular.otf') format('opentype');
+    src: url('../assets/fonts/SF-Pro/SF-Pro-Display-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -34,49 +34,49 @@
 
 @font-face {
     font-family: 'SF Pro Text Ultralight Italic';
-    src: url('assets/fonts/SF-Pro/SF-Pro-Display-UltralightItalic.otf') format('opentype');
+    src: url('../assets/fonts/SF-Pro/SF-Pro-Display-UltralightItalic.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'SF Pro';
-    src: url('assets/fonts/SF-Pro/SF-Pro.ttf') format('truetype');
+    src: url('../assets/fonts/SF-Pro/SF-Pro.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'SF Pro Display Black';
-    src: url('assets/fonts/SF-Pro/SF-Pro-Display-Black.otf') format('opentype');
+    src: url('../assets/fonts/SF-Pro/SF-Pro-Display-Black.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'SF Pro Display Black Italic';
-    src: url('assets/fonts/SF-Pro/SF-Pro-Display-BlackItalic.otf') format('opentype');
+    src: url('../assets/fonts/SF-Pro/SF-Pro-Display-BlackItalic.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'SF Pro Display Bold';
-    src: url('assets/fonts/SF-Pro/SF-Pro-Display-Bold.otf') format('opentype');
+    src: url('../assets/fonts/SF-Pro/SF-Pro-Display-Bold.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'SF Pro Display Bold Italic';
-    src: url('assets/fonts/SF-Pro/SF-Pro-Display-BoldItalic.otf') format('opentype');
+    src: url('../assets/fonts/SF-Pro/SF-Pro-Display-BoldItalic.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'SF Pro Display Heavy';
-    src: url('assets/fonts/SF-Pro/SF-Pro-Display-Heavy.otf') format('opentype');
+    src: url('../assets/fonts/SF-Pro/SF-Pro-Display-Heavy.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'SF Pro Display Heavy Italic';
-    src: url('assets/fonts/SF-Pro/SF-Pro-Display-HeavyItalic.otf') format('opentype');
+    src: url('../assets/fonts/SF-Pro/SF-Pro-Display-HeavyItalic.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'SF Pro Display Light';
-    src: url('assets/fonts/SF-Pro/SF-Pro-Display-Light.otf') format('opentype');
+    src: url('../assets/fonts/SF-Pro/SF-Pro-Display-Light.otf') format('opentype');
     font-weight: 300;
     font-style: normal;
 }
@@ -84,39 +84,39 @@
 
 @font-face {
     font-family: 'SF Pro Display Light Italic';
-    src: url('assets/fonts/SF-Pro/SF-Pro-Display-LightItalic.otf') format('opentype');
+    src: url('../assets/fonts/SF-Pro/SF-Pro-Display-LightItalic.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'SF Pro Display Medium';
-    src: url('assets/fonts/SF-Pro/SF-Pro-Display-Medium.otf') format('opentype');
+    src: url('../assets/fonts/SF-Pro/SF-Pro-Display-Medium.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'SF Pro Display Medium Italic';
-    src: url('assets/fonts/SF-Pro/SF-Pro-Display-MediumItalic.otf') format('opentype');
+    src: url('../assets/fonts/SF-Pro/SF-Pro-Display-MediumItalic.otf') format('opentype');
 }
 
 
 @font-face {
     font-family: 'SF Pro Display Regular Italic';
-    src: url('assets/fonts/SF-Pro/SF-Pro-Display-RegularItalic.otf') format('opentype');
+    src: url('../assets/fonts/SF-Pro/SF-Pro-Display-RegularItalic.otf') format('opentype');
 }
 @font-face {
     font-family: 'Valky Regular';
-    src: url('assets/fonts/Valky/Valky-Regular.ttf') format('truetype');
+    src: url('../assets/fonts/Valky/Valky-Regular.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Valky Light';
-    src: url('assets/fonts/Valky/Valky-Light.ttf') format('truetype');
+    src: url('../assets/fonts/Valky/Valky-Light.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Valky Semibold';
-    src: url('assets/fonts/Valky/Valky-Semibold.ttf') format('truetype');
+    src: url('../assets/fonts/Valky/Valky-Semibold.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Valky Bold';
-    src: url('assets/fonts/Valky/Valky-Bold.ttf') format('truetype');
+    src: url('../assets/fonts/Valky/Valky-Bold.ttf') format('truetype');
 }
 
 
