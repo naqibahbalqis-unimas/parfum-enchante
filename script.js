@@ -23,3 +23,8 @@ document.addEventListener("DOMContentLoaded", function() {
     // Change the image every 20 seconds
     setInterval(nextImage, 20000);
 });
+
+
+window.addEventListener('load', function() {
+    document.body.classList.add('loaded');
+});

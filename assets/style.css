@@ -19,6 +19,16 @@ body{
     box-sizing: border-box;
 }
 
+body {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+body.loaded {
+    opacity: 1;
+}
+
+
 .navbar{
     background-color: #121212;
     padding: 20px 30px;
@@ -34,7 +44,6 @@ body{
 }
 
 .buy-now {
-    display: inline-block;
     padding: 10px 20px; /* Adjust padding as needed */
     background-color: transparent;
     border: 2px solid #e8dacd; /* Set the border color to your preference */
@@ -144,7 +153,7 @@ body{
     display: inline-block;
     margin: 40px 0;
     font-weight: 400;
-    padding: 12px 30px; /* Slightly increased padding for better clickability */
+    padding: 12px 30px; /* Slightly increased padding for better click ability */
     background-color: transparent; /* Background color to make it stand out */
     border: 2px solid #e8dacd;
     border-radius: 4px;
@@ -198,7 +207,7 @@ body{
     padding: 15px 10px;
 }
 .perfume-name{
-    font-family: "Valky Regular",sans-serif;
+    font-family: "Valky Regular",serif;
 
 }
 .perfume-description{
@@ -406,7 +415,7 @@ a{
     }
 
     .perfume-name{
-        font-size: 13px;
+        font-size: 18px;
     }
 
 
