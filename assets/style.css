@@ -188,7 +188,7 @@ body.loaded {
     padding: 10px;
     background-color: #181818;;
     transition: transform 0.3s ease-in-out; /* Use cubic-bezier for a smoother effect */
-    height: 460px;
+    height: 430px;
 }
 
 .perfume-item img {
@@ -403,6 +403,10 @@ a{
 
         object-fit: cover; /* Maintain aspect ratio and crop if necessary */
     }
+
+    .hero-cta{
+        font-size: 15px;
+    }
     .perfume-item {
         font-size: 15px;
         color: white;
@@ -410,7 +414,7 @@ a{
         margin-bottom: 20px;
         background-color: #181818;;
         transition: transform 0.3s ease-in-out; /* Use cubic-bezier for a smoother effect */
-        height: 330px;
+        height: 300px;
         width: auto;
     }
 
@@ -419,7 +423,9 @@ a{
     }
 
 
-
+    .accord-bar{
+        padding-left: 10px;
+    }
 
 }
 
@@ -468,3 +474,6 @@ footer {
     margin-top: 20px;
 }
 
+.accord-bar{
+    padding-left: 20px;
+}
