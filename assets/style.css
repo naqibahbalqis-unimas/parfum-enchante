@@ -182,6 +182,7 @@ body.loaded {
 }
 
 .perfume-item {
+
     color: white;
     border-radius: 20px;
     margin-bottom: 20px;
@@ -476,4 +477,44 @@ footer {
 
 .accord-bar{
     padding-left: 20px;
+}
+
+/* Custom CSS to hide radio circle */
+
+
+
+
+.select-button {
+    color: white;
+    background: rgba(84, 84, 84, 0);
+    width: fit-content;
+    border-radius: 90px;
+    padding: 8px 16px; /* Adjust padding to your preference */
+    margin-bottom: 40px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.select-button:hover,
+.select-button:focus,
+.select-button:active {
+    color: #181818;
+    background: white;
+}
+
+.select-button input[type="radio"] {
+    display: none; /* Hide the actual radio input */
+}
+
+.select-button input[type="radio"]:checked + label {
+    background: white;
+    color: #181818;
+}
+
+.item {
+    display: block; /* Initially display all items */
+}
+
+.loaded .item {
+    transition: 0.5s; /* Add a transition for a smoother effect */
 }
