@@ -278,7 +278,9 @@ body.loaded {
     font-family: 'Commune',serif;
     color: white;
 }
-
+.contact-info-mobile{
+    display:none;
+}
 .grid-x {
     display: flex;
     flex-flow: row wrap;
@@ -331,7 +333,7 @@ body.loaded {
 a{
     text-decoration: none;
 }
-
+/*mobile*/
 @media only screen and (max-width: 900px) {
 
     body{
@@ -442,6 +444,81 @@ a{
         padding-right: 30px;
         padding-left: 30px;
     }
+
+    .about-us{
+        margin: 10px;
+        padding:0;
+    }
+
+    .contact-info {
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        display: none;
+    }
+
+    .contact-info-container{
+        display:none;
+    }
+
+    .contact-info-mobile {
+        display: block;
+        margin-right: 20px;
+        margin-left: 20px;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .contact-info-container-mobile {
+        display: flex;
+        flex-direction: column; /* Change to column for mobile view */
+        align-items: center; /* Center items in a column */
+        padding-bottom: 40px;
+    }
+
+    .contact-item-mobile {
+        flex: 1; /* Take full width in a column */
+        width: 100%; /* Ensure full width */
+        margin-bottom: 20px;
+        background: #1c1c1c;
+        padding: 20px;
+        color: white;
+        border-radius: 20px;
+    }
+
+    .contact-location-mobile {
+        color: white;
+        font-size: 23px;
+    }
+
+    .contact-name-number-mobile {
+        margin-top: 10px; /* Adjust spacing */
+        text-align: left; /* Center text for mobile view */
+        font-size: 16px; /* Adjust font size */
+        margin-left:20px;
+    }
+
+    .contact {
+        margin-top: 20px; /* Adjust spacing */
+    }
+
+    .contact-button {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        padding: 12px 20px; /* Adjust padding for better clickability on mobile */
+        margin-top: 20px; /* Adjust spacing */
+        background-color: transparent;
+        border: 2px solid #e8dacd;
+        border-radius: 4px;
+        color: #e8dacd;
+        text-decoration: none;
+        font-size: 16px; /* Adjust font size */
+        transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+        text-align: center; /* Center text for mobile view */
+    }
+
+
+
+
 
 }
 
@@ -592,3 +669,110 @@ footer a:hover{
     font-family: "Noto Serif Display", serif;
 }
 
+.contact-us-heading {
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    z-index: -1;
+    font-family: "Commune", serif;
+    margin-bottom: 30px;
+}
+
+.maps {
+    border-radius: 15px;
+    display: block;
+    width: 700px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+
+
+.contact-info {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.contact-info-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+
+.contact-item {
+    flex: 0 0 25%; /* Adjust the width as needed */
+    background: #1c1c1c;
+    padding: 20px;
+    color: white;
+    margin:0;
+    width: 30px;
+    border-radius: 20px;
+}
+
+.contact-location {
+    color: white;
+    font-size: 23px;
+}
+
+.contact-name-number{
+    margin-top:30px;
+    text-align: left;
+    font-size: 20px;
+    padding-left: 30px;
+
+}
+.contact{
+    margin-left:20px;
+    margin-top: 20px;
+}
+
+.contact-button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding: 12px 30px; /* Slightly increased padding for better click ability */
+    margin-top:40px;
+    background-color: transparent; /* Background color to make it stand out */
+    border: 2px solid #e8dacd;
+    border-radius: 4px;
+    color: #e8dacd; /* Improved text color for better contrast */
+    text-decoration: none;
+    font-size: 18px; /* Slightly increased font size for emphasis */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    text-align: left;
+}
+
+.contact-button:hover{
+    background-color:  #e8dacd; /* Reverts to transparent on hover */
+    color: #050505; /* Text color changes on hover for contrast */
+}
+
+.our-team {
+    text-align: center;
+}
+
+.our-team-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.team-member-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.team-member-info {
+    padding: 20px;
+    color:white;
+}
+
+.team-member-info img {
+    width: 100%;
+    max-width: 80px;
+    margin-bottom: 10px;
+}
+
+.team-member-info h4 {
+    margin: 0;
+    font-size: 16px;
+}
